@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<style>
+  body { font: 14px system-ui, sans-serif; width: 280px; margin: 0; padding: 14px; color: #1d1d1b; }
+  h1 { font-size: 15px; margin: 0 0 10px; }
+  label { display: block; font-size: 12px; color: #666; margin-bottom: 4px; }
+  input { width: 100%; box-sizing: border-box; padding: 7px 9px; border: 1px solid #ddd; border-radius: 8px; font: inherit; }
+  button { margin-top: 10px; width: 100%; padding: 8px; border: 0; border-radius: 8px; background: #0b7a75; color: #fff; font-weight: 600; cursor: pointer; }
+  p { font-size: 12px; color: #666; }
+  a { color: #0b7a75; }
+</style>
+</head>
+<body>
+  <h1>Vinted Studio</h1>
+  <label for="url">Adresse de l'appli</label>
+  <input id="url" placeholder="http://localhost:3000" />
+  <button id="save">Enregistrer</button>
+  <p id="msg"></p>
+  <p>Ouvre <a href="https://www.vinted.fr/items/new" target="_blank">vinted.fr/items/new</a> : le panneau Vinted Studio apparaît en bas à droite.</p>
+  <script src="popup.js"></script>
+</body>
+</html>
